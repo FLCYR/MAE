@@ -1,0 +1,62 @@
+﻿
+QPushButton
+{
+    border: 2px solid magenta;
+    border-radius: 10px;
+    border:0;
+    background: white;
+    padding: 2px 5px;
+    border-color:white
+}
+QPushButton:hover
+{
+    background-color:#8bf;
+}
+QPushButton:pressed
+{
+    background-color:#59f;
+    border-color: gray;
+}
+#Dir-Btn
+{
+
+    background-color:#f0f0f0;
+    border-color:#f0f0f0;
+}
+#Dir-Btn:hover
+{
+    background-color:#8bf;
+}
+#Dir-Btn:pressed
+{
+    background-color:#59f;
+    border-color: gray;
+}
+/*#startBtn
+{
+    background-image:url(":/ico/start.png");
+    background-position:center;
+}*/
+QLineEdit
+{
+    border:1px solid #999999;
+    border-radius:3px;
+    padding:0 1px;
+
+}
+.input
+{
+    border-style:inset;
+}
+QLineEdit:focus{
+    border-color:#555500;
+}
+
+QLabel
+{
+   background: transparent;
+   border: 1px solid transparent;
+   padding: 1px;
+   font:14px "宋体";
+}
+
